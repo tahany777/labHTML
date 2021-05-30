@@ -15,7 +15,7 @@ for (var i = 0; i < star; i++) {
   console.log(i);
 }
 console.log("Rating is " + star);
-/*var age = prompt(" Please Enter Your Age");
+var age = prompt(" Please Enter Your Age");
 
 if(age <= 18) {
   alert("you are too young");
@@ -28,7 +28,7 @@ if(age <= 18) {
 var language = prompt("Enter Your Best programming Language");
 console.log(language);
 
-alert("You Love " + language);*/
+alert("You Love " + language);
 
 
 
