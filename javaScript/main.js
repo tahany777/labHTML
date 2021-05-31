@@ -1,4 +1,4 @@
-let name = prompt("Please Enter Your Name");
+/*let name = prompt("Please Enter Your Name");
 function welcome(n1) {
   while (n1 === '' || !isNaN(n1)) {
     n1 = prompt("please enter your name !!!");
@@ -37,7 +37,7 @@ function language(i) {
   console.log(i);
   alert("You Love " + i);
 }
-language(lang);
+language(lang);*/
 
 
 
