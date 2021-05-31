@@ -11,7 +11,7 @@ welcome(name);
 document.write("<footer>2021 by Tahany Ali</footer>");
 let star = prompt("What star rating would you give, 1-5?");
 function stars(x) {
-  while(x < 0 || x > 5) {
+  while(x < 1 || x > 5) {
   x = prompt("please enter from 1 to 5");
   }
   for (var i = 0; i < x; i++) {
