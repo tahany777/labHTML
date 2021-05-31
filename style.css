@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  color: #0033cc;
+  color: rgb(0,51,204);
 }
 .email, .submit{
   margin: 5px;
@@ -19,13 +19,19 @@ h1 {
 }
 .email {
   padding: 9px;
-  border: 1px solid #99b3ff;
+  border: 1px solid rgb(60%,70.2%,100%);
 }
 .submit {
+  cursor: pointer;
+  font-weight: bold;
   padding: 10px;
-  background-color: #99b3ff;
-  color: #fff;
+  background-color: hsl(0.62, 1.00, 0.80);
+  color: #0033cc;
 }
+.submit:hover {
+  background-color: #e0e4ee;
+  color: #666;
+}		
 p {
   margin: 0 10px;
   font-size: 18px;
